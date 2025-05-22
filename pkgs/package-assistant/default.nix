@@ -15,7 +15,7 @@ rustPlatform.buildRustPackage rec {
     hash = "sha256-v4cC/QQ6CEn5kCju39taSVMj6MAUhMGGj+OYveEe5XE=";
   };
 
-  cargoHash = "sha256-8OOK/8XQOsnq+HBOwqewEv4Otf/oyXyUhyYyiESCcLw=";
+  cargoHash = "sha256-dTDLRV6AMauilOjIYT/JOlDQMMnvv6jqHg1uCIYfXBU=";
 
   meta = {
     description = "Manage your package managers";
