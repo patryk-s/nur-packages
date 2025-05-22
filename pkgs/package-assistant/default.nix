@@ -16,6 +16,9 @@ rustPlatform.buildRustPackage rec {
   };
 
   cargoHash = "sha256-dTDLRV6AMauilOjIYT/JOlDQMMnvv6jqHg1uCIYfXBU=";
+  cargoBuildFlags = [
+    "--locked"
+  ];
 
   meta = {
     description = "Manage your package managers";
